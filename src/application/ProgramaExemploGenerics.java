@@ -10,7 +10,7 @@ public class ProgramaExemploGenerics {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		PrintServices ps = new PrintServices();
+		PrintServices<Integer> ps = new PrintServices<>();
 		
 		System.out.print("How many values?: ");
 		int n = sc.nextInt();
